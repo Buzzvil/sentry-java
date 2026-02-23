@@ -22,10 +22,10 @@ jobs:
 
     steps:
       - name: Git checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # v3
 
       - name: 'Set up Java: 17'
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62  # v3
         with:
           java-version: '17'
           distribution: 'temurin'
@@ -64,15 +64,15 @@ jobs:
 
     steps:
       - name: Git checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # v3
 
       - name: 'Set up Java: 17'
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62  # v3
         with:
           java-version: '17'
           distribution: 'temurin'
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@6f8efc29b200d32929f49075959781ed54ec270c  # v3
         id: app-plain-cache
         with:
           path: sentry-android-integration-tests/test-app-plain/build/outputs/apk/release/test-app-plain-release.apk
