@@ -10,5 +10,5 @@ jobs:
   validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # v3
       - uses: gradle/wrapper-validation-action@55e685c48d84285a5b0418cd094606e199cca3b6 # pin@v1
