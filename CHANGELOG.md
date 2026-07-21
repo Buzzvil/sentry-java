@@ -16,9 +16,9 @@
 
 ### Dependencies
 
-- Bump Native SDK from v0.5.1 to v0.5.2 ([#2315](https://github.com/getsentry/sentry-java/pull/2315))
-  - [changelog](https://github.com/getsentry/sentry-native/blob/master/CHANGELOG.md#052)
-  - [diff](https://github.com/getsentry/sentry-native/compare/0.5.1...0.5.2)
+- Bump Native SDK from v0.5.1 to v0.15.4 ([#2315](https://github.com/getsentry/sentry-java/pull/2315), [#8](https://github.com/Buzzvil/sentry-java/pull/8))
+  - [changelog](https://github.com/getsentry/sentry-native/blob/master/CHANGELOG.md#0154)
+  - [diff](https://github.com/getsentry/sentry-native/compare/0.5.1...0.15.4)
 
 ## 6.6.0
 
